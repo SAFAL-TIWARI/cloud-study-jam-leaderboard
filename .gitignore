@@ -1,0 +1,17 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# misc
+.DS_Store
+*.pem
+
+# local env files
+.env.local
+.env*.local
+gcsj-2025-2e1a6d51ed23.json
+
+# Next.js
+/.next/
+/out/
