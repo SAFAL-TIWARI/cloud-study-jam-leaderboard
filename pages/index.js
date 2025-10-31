@@ -64,7 +64,7 @@ export default function Home() {
                   <td>{index + 1}</td>
                   <td>{player.name}</td>
                   <td>{player.badgeCount}</td>
-                  <td>{player.arcadeComplete === 1 ? '✅' : '❌'}</td>
+                  <td>{player.arcadeComplete === 1 ? '1' : '0'}</td>
                 </tr>
               ))}
             </tbody>
